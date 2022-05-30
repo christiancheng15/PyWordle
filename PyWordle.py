@@ -50,7 +50,7 @@ while play:
     random_number = randint(0,len(word_list))
     selected_word = word_list[random_number]
     # CHEAT MODE
-    print(selected_word)
+    # print(selected_word)
     for num1 in range(1,7):
         guess = input(f"{num1}/6: ")
         while len(guess) != 5 or guess.isalpha() == False or guess.upper() not in word_list:
